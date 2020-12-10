@@ -1,4 +1,4 @@
 # Components
-Components are reusable parts of the user interface that have been made to support a variety of applications.
+Components are ready-made interface elements that can be used in different patterns and layouts. They are part of our visual language and are intended to be used unchanged for a consistent user experience.
 
-Individual components can be used in multiple different patterns and contexts.
+These components extend those used across Government in the GOV.UK design system. As our components mature, we will look to contribute them to the GOV.UK system so they can be used more widely.
