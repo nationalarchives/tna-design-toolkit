@@ -4,10 +4,10 @@ Use the drag and drop file upload component to help users upload multiple files 
 
 ![Drag and drop file upload image](/images/drag_and_drop.png "Drag and drop file upload image")
 
-[HTML](/components/drag_and_drop/drag_and_drop.html) and [CSS](/components/drag_and_drop/styles.scss)
+[HTML](/components/drag_and_drop/drag_and_drop.html) and [Styles](/components/drag_and_drop/styles.scss) for this component
 
 ## When to use this component
-The drag and drop file upload component can be useful if you need to let users upload multiple files at once, on a regular basis. For example, in a case working system.
+The drag and drop file upload component can be useful if you need to let users upload multiple folders at once, on a regular basis. For example, in a case working system.
 
 ## When not to use this component
 Do not use this component if users only need to upload one file.
@@ -19,11 +19,11 @@ For this reason, do not use this component unless research shows that users need
 ## How it works
 The drag and drop file upload consists of a dropzone and feedback area which starts off hidden.
 
-Users can drag and drop files onto the dropzone or click the button and select files using the file picker.
+Users can drag and drop folders onto the dropzone or click the button and select folders using the folder picker.
 
-Each selected file will start uploading immediately and appear as a row in the feedback area. Each file’s progress is indicated as a percentage.
+Each selected folder will start uploading immediately and appear as a row in the feedback area.
 
-When a file has been uploaded it will show as:
+When a folder has been uploaded it will show as:
 
 - green, next to a tick icon, if it’s been uploaded successfully
 - red, next to a warning icon, if there’s been an error
@@ -31,5 +31,6 @@ When a file has been uploaded it will show as:
 For errors use these [error messages](drag_and_drop_error.html)
 
 ## Research on this component
+The design, code and guidance here are based on [recommendations from the community](https://github.com/alphagov/govuk-design-system-backlog/issues/49).
 
-## Accessibility
+TDR have tested this pattern on their file upload page and most participants have given positive feedback on all aspects demonstrating they were drawn to the drop-zone area and were able to identify exactly where they can upload their folder.
