@@ -2,9 +2,9 @@
 # Drag and drop file upload
 Use the drag and drop file upload component to help users upload multiple files at the same time.
 
-insert image here
+![Drag and drop file upload image](/images/drag_and_drop.png "Drag and drop file upload image")
 
-include HTML right here
+[HTML](/components/drag_and_drop/drag_and_drop.html) and [CSS](/components/drag_and_drop/styles.scss)
 
 ## When to use this component
 The drag and drop file upload component can be useful if you need to let users upload multiple files at once, on a regular basis. For example, in a case working system.
@@ -27,6 +27,8 @@ When a file has been uploaded it will show as:
 
 - green, next to a tick icon, if it’s been uploaded successfully
 - red, next to a warning icon, if there’s been an error
+
+For errors use these [error messages](drag_and_drop_error.html)
 
 ## Research on this component
 
