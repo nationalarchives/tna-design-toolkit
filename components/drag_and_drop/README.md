@@ -57,6 +57,6 @@ When a folder has been uploaded it will show as:
 For errors use these [error messages](drag_and_drop_error.html)
 
 ## Research on this component
-The design, code and guidance here are based on [recommendations from the community](https://github.com/alphagov/govuk-design-system-backlog/issues/49).
+The design, code and guidance here are based on [recommendations from the community](https://github.com/alphagov/govuk-design-system-backlog/issues/49) and Ministry of Justice's design system component [multi file upload](https://moj-design-system.herokuapp.com/components/multi-file-upload).
 
 TDR have tested this pattern on their file upload page and most participants have given positive feedback on all aspects demonstrating they were drawn to the drop-zone area and were able to identify exactly where they can upload their folder.
