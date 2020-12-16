@@ -10,19 +10,19 @@ To use this component, you can use the below example. You must use the required 
 #### HTML:
 ```html
 <form id="file-upload-form">
-    <div class="govuk-form-group">
+    <div class="tna-form-group">
         <div class="drag-and-drop">
             <div>
-                <div class="govuk-form-group">
+                <div class="tna-form-group">
                     <div class="drag-and-drop__dropzone">
                         <input type="file" id="file-selection" name="files"
-                            class="govuk-file-upload drag-and-drop__input" webkitdirectory>
-                        <p class="govuk-body drag-and-drop__hint-text">Drag and drop a single folder here or</p>
+                            class="tna-file-upload drag-and-drop__input" webkitdirectory>
+                        <p class="tna-body drag-and-drop__hint-text">Drag and drop a single folder here or</p>
                         <label for="file-selection"
-                            class="govuk-button govuk-button--secondary drag-and-drop__button">Choose
+                            class="tna-button tna-button--secondary drag-and-drop__button">Choose
                             folder</label>
                     </div>
-                    <button class="govuk-button" type="submit" data-module="govuk-button" role="button">
+                    <button class="tna-button" type="submit" data-module="tna-button" role="button">
                         Continue
                     </button>
                 </div>
