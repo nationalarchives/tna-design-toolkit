@@ -4,7 +4,33 @@ Use the drag and drop file upload component to help users upload multiple files 
 
 ![Drag and drop file upload image](/images/drag_and_drop.png "Drag and drop file upload image")
 
-[HTML](/components/drag_and_drop/drag_and_drop.html) and [Styles](/components/drag_and_drop/styles.scss) for this component
+## Usage
+To use this component, you can use the below example. You must use the required [stylesheet](/components/drag_and_drop/styles.scss) in order for this component to work. 
+
+#### HTML:
+```html
+<form id="file-upload-form">
+    <div class="govuk-form-group">
+        <div class="drag-and-drop">
+            <div>
+                <div class="govuk-form-group">
+                    <div class="drag-and-drop__dropzone">
+                        <input type="file" id="file-selection" name="files"
+                            class="govuk-file-upload drag-and-drop__input" webkitdirectory>
+                        <p class="govuk-body drag-and-drop__hint-text">Drag and drop a single folder here or</p>
+                        <label for="file-selection"
+                            class="govuk-button govuk-button--secondary drag-and-drop__button">Choose
+                            folder</label>
+                    </div>
+                    <button class="govuk-button" type="submit" data-module="govuk-button" role="button">
+                        Continue
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+```
 
 ## When to use this component
 The drag and drop file upload component can be useful if you need to let users upload multiple folders at once, on a regular basis. For example, in a case working system.
