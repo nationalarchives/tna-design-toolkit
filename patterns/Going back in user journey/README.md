@@ -8,7 +8,7 @@ Follow this pattern when you use
 
 -Form e.g. question pages  https://design-system.service.gov.uk/patterns/question-pages/
 
--Back link https://design-system.service.gov.uk/components/back-link/
+-Back link  https://design-system.service.gov.uk/components/back-link/
 
 -Continue button
 
@@ -25,7 +25,7 @@ Follow this pattern when you use
 
 -If the user has performed an action they should only do once, do not include a back link. Show a sensible message and do not let them perform the action again when they click the browser back button. 
 
-![Sensible message](/images/sensible-message.png "sensible message")
+'(Example of a sensible message)'
 
 ## Research on this pattern
 A back link should be included because some users do not trust browser back buttons when entering data. 
