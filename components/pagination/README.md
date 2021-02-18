@@ -1,5 +1,8 @@
 ### Components
 # Pagination
+#### EXPERIMENTAL
+This component is still in it's experimental stages and therefore only works with a small number of pages, there will be future iterations that can help with larger pages and will allow filtering, sorting and ordering. 
+
 Use the Pagination component to help users browse through a long list.
 
 ![Pagination image](/images/pagination.png "pagination image")
@@ -38,6 +41,9 @@ You can avoid pagination by:
 
 ## Content principles
 Consider what the sorting order should be to make the search more relevant. The more specific it is to the user's search criteria, the better the search results.
+
+## Accessibility
+There hasn't been any accessibility testing on this component yet.
 
 ## Research on this component
 The design, code and guidance here are based on various other pagination components within government departments. Our component is using research from [HMCTS Design System](https://hmcts-design-system.herokuapp.com/components/pagination) and [Rural Payments](http://rural-payments-styleguide.herokuapp.com/pagination/).
