@@ -43,6 +43,8 @@ You can avoid pagination by:
 Consider what the sorting order should be to make the search more relevant. The more specific it is to the user's search criteria, the better the search results.
 
 ## Accessibility
+This component uses `aria-label` attribute which is used to define a string that labels the current element. This is useful in cases where a text label is not visible on the screen or if there isn't anything indication of the purpose of the button.
+
 There hasn't been any accessibility testing on this component yet.
 
 ## Research on this component
